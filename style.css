@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1d3a;
+    color: white;
+}
+
+
+header {
+    background-color: #1a1d3a;
+    padding: 2em 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo img {
+    height: 30px;
+}
+
+
+header nav {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.button-doe-mee {
+    background-color: #ff9b8e;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.button-doe-mee:hover {
+    background-color: #ff8a7a;
+}
+
+
+.Hamburger {
+    display: none;
+}
+
+
+
+.Page1 {
+    background-color: #2a4a6a;
+    padding: 1em 2em;
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.Background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Background img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Page1 h1 {
+    font-size: 48px;
+    margin-bottom: 6em;
+    position: relative;
+    max-width: 7em;
+    margin-left: 1em;
+}
+
+.Page1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 3em;
+    position: absolute;
+    max-width: 390px;
+}
+
+.Button1 {
+    background-color: #ff9b8e;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 20em;
+    margin-left: 3em;
+    
+   
+}
+
+.Person {
+    position: absolute;
+    right: 40px;
+    margin-bottom: 0;
+    
+    
+}
+
+.Person img {
+    width: 617px;
+
+}
+
+
+.Page2 {
+    background-color: #ff9b8e;
+    padding: 10em 2em;
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.group {
+    flex-shrink: 0;
+}
+
+.group img {
+    width: 100%;
+    max-width: 30em;
+    border-radius: 15px;
+    margin-left: 3em;
+    margin-top: 7em;
+}
+
+
+.Page2 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 0,5em;
+     
+}
+
+.Page2 p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 7em;
+    max-width: 500px;
+}
+
+
+.Page3 {
+    background-color: #1a1d3a;
+    padding: 5em 5em;
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+
+
+
+.Page3 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    margin-top: 1em;
+}
+
+.Page3 p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 200px;  
+    position: absolute;
+    max-width: 450px;
+    }
+
+.Button2 {
+    background-color: #ff9b8e;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 30em;
+}
+
+
+.Telefoon img {
+    width: 100%;
+    max-width: 600px;  
+    height: auto;
+    margin-left: 20em;
+}
+
+
+.Page4 {
+    background-color: #ff9b8e;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.Page4 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.Page4 p {
+    background-color: #1a1d3a;
+    color: #ff9b8e;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.Page5 {
+    background: linear-gradient(to right, #1a1d3d 0%, #2d1a3d 50%, #1a1d3d 100%);
+    padding: 60px 20px;
+    color: white;
+}
+
+.Waarden {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Waarden h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.waarden-container {
+    display: flex;
+    justify-content: center;
+    gap: 20em;
+    margin: 0 auto 80px;
+    flex-wrap: wrap;
+    margin-top: 7em;
+}
+
+
+.Euforie,
+.Stilte,
+.Connection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    flex: 1;
+}
+
+.Euforie h2,
+.Stilte h2,
+.Connection h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.Euforie p,
+.Stilte p,
+.Connection p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.Contact {
+    text-align: left;
+    margin-top: 15em;
+    margin-bottom: 40px;
+    margin-left: 20em;
+}
+
+.Contact h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.Connect {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto 60px;
+    gap: 20px;
+    margin-left: 20em;
+    margin-top: 4em;
+}
+
+
+
+.Connect input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 10px 10px ;
+    font-size: 16px;
+}
+
+
+
+.Button3 {
+    background: #ff9d8f;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 25px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+
+.Orange {
+    background: #ff9b8e;
+    border-radius: 30px;
+    padding: 1em 5em ;
+    max-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 60em;
+    margin-top: -30em;
+}
+
+.info h2 {
+    font-size: 24px;
+   margin-top: 1em;
+}
+
+.Email-contact,
+.call-contact,
+.location-contact,
+.calender-date {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 10px; 
+}
+
+
+
+.Orange p {
+    margin: 0;
+  font-size: 16px;
+    
+}
+
+.Mail img,
+.phone img,
+.location-icon img,
+.calender-icon img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.footer {
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10em;
+    
+
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: opacity 0.3s;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
